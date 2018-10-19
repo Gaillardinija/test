@@ -3,7 +3,6 @@ import requests # для запросов cо страницы сайта
 from bs4 import BeautifulSoup # парсер для синтаксического разбора страницы HTML/XML
 import shutil, os # для работы с ОС
 
-import os
 
 # определяем базовые параметры
 link1 = 'https://www.atsenergo.ru/nreport' # первая часть ссылки на отчеты о равновесных ценах в наиболее крупных узлах
